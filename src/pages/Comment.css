@@ -1,0 +1,106 @@
+.report-page {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2f5f9; /* Light blue background */
+    padding: 40px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .report-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif; /* Modern font */
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .report-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid layout */
+    gap: 30px;
+  }
+  
+  /* Unique styling for report sections */
+  .report-summary {
+    background-color: #e5f0fa; /* Lighter blue */
+    border: 2px solid #99c5f5; /* Blue border */
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .report-chart {
+    margin-bottom: 30px;
+  }
+  
+  .report-table {
+    margin-bottom: 30px;
+  }
+  
+  /* Table styling */
+  .report-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Fraud reporting section */
+  .report-fraud-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .report-fraud-section button {
+    background-color: #1e88e5; /* Bolder blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Drop shadow */
+    cursor: pointer;
+  }
+  
+  .report-fraud-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .report-fraud-section label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  
+  .report-fraud-section input,
+  .report-fraud-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .report-fraud-section textarea {
+    height: 100px;
+  }
+  
